@@ -1,20 +1,20 @@
 //
-//  DetailView.swift
+//  ThemeView.swift
 //  Starter
 //
-//  Created by Asim Seferli on 17.01.24.
+//  Created by Asim Seferli on 18.01.24.
 //
 
 import SwiftUI
 
-struct DetailView: View {
+struct ThemeView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct DetailView_Previews: PreviewProvider {
+struct ThemeView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView()
+        ThemeView()
     }
 }

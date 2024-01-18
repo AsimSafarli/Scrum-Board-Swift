@@ -16,6 +16,7 @@
 		7CD2A49A2B57F2790018B496 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2A4992B57F2790018B496 /* CardView.swift */; };
 		7CD2A49C2B57F7C20018B496 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2A49B2B57F7C20018B496 /* ScrumsView.swift */; };
 		7CD2A49E2B58081A0018B496 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2A49D2B58081A0018B496 /* DetailView.swift */; };
+		7CE546D42B5941B000AD2CDD /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE546D32B5941B000AD2CDD /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		7CD2A4992B57F2790018B496 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7CD2A49B2B57F7C20018B496 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		7CD2A49D2B58081A0018B496 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7CE546D32B5941B000AD2CDD /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +63,12 @@
 		7CD2A4852B57E4340018B496 /* Starter */ = {
 			isa = PBXGroup;
 			children = (
+				7CE546D22B59419600AD2CDD /* Views */,
 				7CD2A4942B57EE650018B496 /* Models */,
 				7CD2A4862B57E4340018B496 /* StarterApp.swift */,
 				7CD2A4882B57E4340018B496 /* ContentView.swift */,
 				7CD2A48A2B57E4350018B496 /* Assets.xcassets */,
 				7CD2A48C2B57E4350018B496 /* Preview Content */,
-				7CD2A4992B57F2790018B496 /* CardView.swift */,
-				7CD2A49B2B57F7C20018B496 /* ScrumsView.swift */,
-				7CD2A49D2B58081A0018B496 /* DetailView.swift */,
 			);
 			path = Starter;
 			sourceTree = "<group>";
@@ -88,6 +88,17 @@
 				7CD2A4972B57F0AA0018B496 /* DailyScrum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		7CE546D22B59419600AD2CDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2A4992B57F2790018B496 /* CardView.swift */,
+				7CD2A49B2B57F7C20018B496 /* ScrumsView.swift */,
+				7CD2A49D2B58081A0018B496 /* DetailView.swift */,
+				7CE546D32B5941B000AD2CDD /* ThemeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE546D42B5941B000AD2CDD /* ThemeView.swift in Sources */,
 				7CD2A4982B57F0AA0018B496 /* DailyScrum.swift in Sources */,
 				7CD2A49C2B57F7C20018B496 /* ScrumsView.swift in Sources */,
 				7CD2A4962B57EF4B0018B496 /* Thema.swift in Sources */,
